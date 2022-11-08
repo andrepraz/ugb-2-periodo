@@ -1,2 +1,2 @@
 # ugb-2-periodo
-Programação python nível básico
+Linguagem técnica de programação I - Python
