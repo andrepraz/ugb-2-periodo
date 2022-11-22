@@ -19,11 +19,12 @@ dados = {
 
 my_crud.inserir(dados)
 
-# my_crud.alterar(a_id=2, a_nome='jose', a_cpf='223355446-56')
-# results = my_crud.selecionar()
-# print('RESULTADO:', results)
-# my_crud.deletar(3)
-# results = my_crud.selecionar()
-# print('RESULTADO:', results)
+my_crud.alterar(a_id=2, a_nome='jose', a_cpf='223355446-56')
+
+results = my_crud.selecionar()
+print('RESULTADO:', results)
+my_crud.deletar(3)
+results = my_crud.selecionar()
+print('RESULTADO:', results)
 
 my_crud.fecharDB()
